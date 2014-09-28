@@ -8,12 +8,7 @@
 #import <Foundation/Foundation.h>
 
 @interface SpellChecker : NSObject
-{
-	NSMutableString *currentLanguage;
-}
 
-- (id)init;
-- (void) dealloc;
 - (void)updateLanguage:(NSString *)language;
 - (NSArray *) getSuggestionsForWord:(NSString *) word;
 - (BOOL)isSpeltCorrectly:(NSString *) word;

@@ -24,7 +24,6 @@
 		23444EF4153F635800C8283C /* SpellingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23444EF2153F635800C8283C /* SpellingViewController.m */; };
 		23444EF5153F635800C8283C /* SpellingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23444EF3153F635800C8283C /* SpellingViewController.xib */; };
 		235B12E1157011B600E8F262 /* SpellingSuggestionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 235B12E0157011B600E8F262 /* SpellingSuggestionDelegate.m */; };
-		2364C744155C9B99000E8310 /* HunspellBridge.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2364C743155C9B99000E8310 /* HunspellBridge.mm */; };
 		B23ED76619D7E3EF00695E0C /* en_US.aff in Resources */ = {isa = PBXBuildFile; fileRef = B23ED76319D7E3EF00695E0C /* en_US.aff */; };
 		B23ED76719D7E3EF00695E0C /* en_US.dic in Resources */ = {isa = PBXBuildFile; fileRef = B23ED76419D7E3EF00695E0C /* en_US.dic */; };
 		B23ED76819D7E3EF00695E0C /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = B23ED76519D7E3EF00695E0C /* README.txt */; };
@@ -71,8 +70,6 @@
 		23444EF3153F635800C8283C /* SpellingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SpellingViewController.xib; sourceTree = "<group>"; };
 		235B12DF157011B600E8F262 /* SpellingSuggestionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpellingSuggestionDelegate.h; sourceTree = "<group>"; };
 		235B12E0157011B600E8F262 /* SpellingSuggestionDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpellingSuggestionDelegate.m; sourceTree = "<group>"; };
-		2364C742155C9B99000E8310 /* HunspellBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HunspellBridge.h; sourceTree = "<group>"; };
-		2364C743155C9B99000E8310 /* HunspellBridge.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HunspellBridge.mm; sourceTree = "<group>"; };
 		B23ED76319D7E3EF00695E0C /* en_US.aff */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = en_US.aff; sourceTree = "<group>"; };
 		B23ED76419D7E3EF00695E0C /* en_US.dic */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = en_US.dic; sourceTree = "<group>"; };
 		B23ED76519D7E3EF00695E0C /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
@@ -267,8 +264,6 @@
 			children = (
 				232CEA20153CF2170083785D /* SpellChecker.h */,
 				232CEA21153CF2170083785D /* SpellChecker.mm */,
-				2364C742155C9B99000E8310 /* HunspellBridge.h */,
-				2364C743155C9B99000E8310 /* HunspellBridge.mm */,
 				232CEA28153CF45E0083785D /* dictionaries */,
 				232CE993153CDD570083785D /* Hunspell */,
 			);
@@ -370,7 +365,6 @@
 				23444EF4153F635800C8283C /* SpellingViewController.m in Sources */,
 				B23ED7CB19D807D500695E0C /* affixmgr.mm in Sources */,
 				B23ED7CF19D807D500695E0C /* hashmgr.mm in Sources */,
-				2364C744155C9B99000E8310 /* HunspellBridge.mm in Sources */,
 				232E76501564874F00A91424 /* SuggestionBar.m in Sources */,
 				B23ED7D119D807D500695E0C /* hunzip.mm in Sources */,
 				235B12E1157011B600E8F262 /* SpellingSuggestionDelegate.m in Sources */,
