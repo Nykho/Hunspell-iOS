@@ -31,6 +31,7 @@
     [super viewDidLoad];
      
     _spellingDelegate = [[SpellingSuggestionDelegate alloc] init];
+    [_spellingDelegate.spellChecker updateLanguage:@"en_US"];
     _inputBox.delegate = _spellingDelegate;
 }
 
