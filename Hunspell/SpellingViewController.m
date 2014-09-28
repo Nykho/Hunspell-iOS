@@ -28,20 +28,14 @@
 
 - (void)viewDidLoad
 {
+    [super viewDidLoad];
+
     _spellingDelegate = [[SpellingSuggestionDelegate alloc] init];
     _inputBox.delegate = _spellingDelegate;
-
-    [super viewDidLoad];
 }
 
-- (void)viewDidUnload
-{
-    [self set_textView:nil];
-    [self set_spellCheck:nil];
-    _wordField = nil;
-    _spellingDelegate = nil;
-    [super viewDidUnload];
-}
+
+
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
@@ -52,6 +46,10 @@
 
 -(IBAction)switchToEnglish:(id)sender {
     [_spellingDelegate.spellChecker updateLanguage:@"en_GB"];
+}
+
+-(IBAction)switchToEnglish_US:(id)sender {
+    [_spellingDelegate.spellChecker updateLanguage:@"en_US"];
 }
 
 -(IBAction)switchToIrish:(id)sender {
