@@ -9,12 +9,12 @@
 #import "SpellingViewController.h"
 #import "SpellingSuggestionDelegate.h"
 
+
 @interface SpellingViewController ()
 
 @end
 
 @implementation SpellingViewController
-@synthesize _textView, _spellCheck;
 
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -29,7 +29,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-
+     
     _spellingDelegate = [[SpellingSuggestionDelegate alloc] init];
     _inputBox.delegate = _spellingDelegate;
 }

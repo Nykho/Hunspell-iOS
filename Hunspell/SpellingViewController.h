@@ -11,16 +11,9 @@
 
 @interface SpellingViewController : UIViewController {
     SpellingSuggestionDelegate *_spellingDelegate;
-    
-    IBOutlet UILabel *_wordField;
-    IBOutlet UITextField *_inputBox;    
 }
 
-@property (weak, nonatomic) IBOutlet UILabel *_textView;
-@property (weak, nonatomic) IBOutlet UILabel *_spellCheck;
-
--(IBAction)switchToEnglish:(id)sender;
--(IBAction)switchToIrish:(id)sender;
--(IBAction)dropKeyboard:(id)sender;
+@property (strong, nonatomic) IBOutlet UITextField *inputBox;
+@property (nonatomic, strong) IBOutlet UIButton *ieButton, *gbButton, *usButton, *endButton;
 
 @end
