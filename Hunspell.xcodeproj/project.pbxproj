@@ -14,15 +14,10 @@
 		232CE971153CDC9A0083785D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 232CE970153CDC9A0083785D /* main.m */; };
 		232CE975153CDC9A0083785D /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 232CE974153CDC9A0083785D /* AppDelegate.mm */; };
 		232CEA24153CF2180083785D /* SpellChecker.mm in Sources */ = {isa = PBXBuildFile; fileRef = 232CEA21153CF2170083785D /* SpellChecker.mm */; };
-		232CEA30153CF47C0083785D /* en_GB.aff in Resources */ = {isa = PBXBuildFile; fileRef = 232CEA2B153CF47C0083785D /* en_GB.aff */; };
-		232CEA32153CF47C0083785D /* en_GB.dic in Resources */ = {isa = PBXBuildFile; fileRef = 232CEA2C153CF47C0083785D /* en_GB.dic */; };
 		232E76501564874F00A91424 /* SuggestionBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 232E764A156480BE00A91424 /* SuggestionBar.m */; };
-		2340143F153FA27100BF8846 /* ga_IE.aff in Resources */ = {isa = PBXBuildFile; fileRef = 2340143D153FA27100BF8846 /* ga_IE.aff */; };
-		23401440153FA27100BF8846 /* ga_IE.dic in Resources */ = {isa = PBXBuildFile; fileRef = 2340143E153FA27100BF8846 /* ga_IE.dic */; };
 		23444EF4153F635800C8283C /* SpellingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23444EF2153F635800C8283C /* SpellingViewController.m */; };
 		23444EF5153F635800C8283C /* SpellingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23444EF3153F635800C8283C /* SpellingViewController.xib */; };
 		235B12E1157011B600E8F262 /* SpellingSuggestionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 235B12E0157011B600E8F262 /* SpellingSuggestionDelegate.m */; };
-		B23ED76619D7E3EF00695E0C /* en_US.aff in Resources */ = {isa = PBXBuildFile; fileRef = B23ED76319D7E3EF00695E0C /* en_US.aff */; };
 		B23ED76719D7E3EF00695E0C /* en_US.dic in Resources */ = {isa = PBXBuildFile; fileRef = B23ED76419D7E3EF00695E0C /* en_US.dic */; };
 		B23ED7CA19D807D500695E0C /* affentry.mm in Sources */ = {isa = PBXBuildFile; fileRef = B23ED7AB19D807D500695E0C /* affentry.mm */; };
 		B23ED7CB19D807D500695E0C /* affixmgr.mm in Sources */ = {isa = PBXBuildFile; fileRef = B23ED7AD19D807D500695E0C /* affixmgr.mm */; };
@@ -156,7 +151,7 @@
 				23444EF2153F635800C8283C /* SpellingViewController.m */,
 				23444EF3153F635800C8283C /* SpellingViewController.xib */,
 				235B12DD157010DC00E8F262 /* UI Elements */,
-				2364C746155CA1F0000E8310 /* Hunspell Engine */,
+				2364C746155CA1F0000E8310 /* Engine */,
 				232CE96B153CDC9A0083785D /* Supporting Files */,
 			);
 			path = Hunspell;
@@ -251,7 +246,7 @@
 			path = "UI Elements";
 			sourceTree = "<group>";
 		};
-		2364C746155CA1F0000E8310 /* Hunspell Engine */ = {
+		2364C746155CA1F0000E8310 /* Engine */ = {
 			isa = PBXGroup;
 			children = (
 				232CEA20153CF2170083785D /* SpellChecker.h */,
@@ -259,7 +254,7 @@
 				232CEA28153CF45E0083785D /* dictionaries */,
 				232CE993153CDD570083785D /* Hunspell */,
 			);
-			path = "Hunspell Engine";
+			path = Engine;
 			sourceTree = "<group>";
 		};
 		B23ED76219D7E3EF00695E0C /* en_US */ = {
@@ -324,12 +319,7 @@
 				232CE96F153CDC9A0083785D /* InfoPlist.strings in Resources */,
 				B2F5DEA519D7C54700A8EF19 /* LaunchScreen.xib in Resources */,
 				B23ED76719D7E3EF00695E0C /* en_US.dic in Resources */,
-				232CEA30153CF47C0083785D /* en_GB.aff in Resources */,
-				232CEA32153CF47C0083785D /* en_GB.dic in Resources */,
-				B23ED76619D7E3EF00695E0C /* en_US.aff in Resources */,
 				23444EF5153F635800C8283C /* SpellingViewController.xib in Resources */,
-				2340143F153FA27100BF8846 /* ga_IE.aff in Resources */,
-				23401440153FA27100BF8846 /* ga_IE.dic in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -46,7 +46,7 @@
 #pragma mark buttons
 
 -(IBAction)switchToEnglish:(id)sender {
-    [_spellingDelegate.spellChecker updateLanguage:@"en_GB"];
+    [_spellingDelegate.spellChecker updateLanguage:@"en_US"];
 }
 
 -(IBAction)switchToEnglish_US:(id)sender {
@@ -54,7 +54,7 @@
 }
 
 -(IBAction)switchToIrish:(id)sender {
-    [_spellingDelegate.spellChecker updateLanguage:@"ga_IE"];
+    [_spellingDelegate.spellChecker updateLanguage:@"en_US"];
 }
 
 -(IBAction)dropKeyboard:(id)sender {
