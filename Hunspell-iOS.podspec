@@ -13,8 +13,9 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-  s.source_files = ['Hunspell/Engine/*', 'Hunspell/Engine/Hunspell/*']
+  s.source_files = 'Hunspell/Engine/*'
   s.resources = ['Hunspell/Engine/dictionaries/*']
+  s.public_header_files = "Hunspell/Engine/*.{h,hxx}"
 
   s.frameworks = 'Foundation'
   s.library = 'c++'
