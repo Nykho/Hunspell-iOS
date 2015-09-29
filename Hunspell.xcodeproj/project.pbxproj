@@ -93,6 +93,7 @@
 		2E2F78141BBA692000472FCD /* suggestmgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = suggestmgr.h; sourceTree = "<group>"; };
 		2E2F78151BBA692000472FCD /* suggestmgr.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = suggestmgr.mm; sourceTree = "<group>"; };
 		2E2F78251BBA69E500472FCD /* w_char.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = w_char.h; sourceTree = "<group>"; };
+		2E2F78261BBA6CF100472FCD /* utf_info.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = utf_info.h; path = dictionaries/utf_info.h; sourceTree = "<group>"; };
 		B23ED76319D7E3EF00695E0C /* en_US.aff */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = en_US.aff; sourceTree = "<group>"; };
 		B23ED76419D7E3EF00695E0C /* en_US.dic */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = en_US.dic; sourceTree = "<group>"; };
 		B2F5DEA419D7C54700A8EF19 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
@@ -211,6 +212,7 @@
 		2364C746155CA1F0000E8310 /* Engine */ = {
 			isa = PBXGroup;
 			children = (
+				2E2F78261BBA6CF100472FCD /* utf_info.h */,
 				2E2F77F81BBA692000472FCD /* affentry.h */,
 				2E2F77F91BBA692000472FCD /* affentry.mm */,
 				2E2F77FA1BBA692000472FCD /* affixmgr.h */,
