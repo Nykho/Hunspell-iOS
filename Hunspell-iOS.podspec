@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-  s.source_files = 'Hunspell/Engine/*'
+  s.source_files = ['Hunspell/Engine/*', 'Hunspell/Engine/Hunspell/*']
   s.resources = ['Hunspell/Engine/dictionaries/*']
 
   s.frameworks = 'Foundation'
