@@ -18,18 +18,20 @@
 		23444EF4153F635800C8283C /* SpellingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23444EF2153F635800C8283C /* SpellingViewController.m */; };
 		23444EF5153F635800C8283C /* SpellingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23444EF3153F635800C8283C /* SpellingViewController.xib */; };
 		235B12E1157011B600E8F262 /* SpellingSuggestionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 235B12E0157011B600E8F262 /* SpellingSuggestionDelegate.m */; };
+		2E2F78171BBA692000472FCD /* affentry.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2E2F77F91BBA692000472FCD /* affentry.mm */; settings = {ASSET_TAGS = (); }; };
+		2E2F78181BBA692000472FCD /* affixmgr.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2E2F77FB1BBA692000472FCD /* affixmgr.mm */; settings = {ASSET_TAGS = (); }; };
+		2E2F78191BBA692000472FCD /* csutil.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2E2F78001BBA692000472FCD /* csutil.mm */; settings = {ASSET_TAGS = (); }; };
+		2E2F781A1BBA692000472FCD /* dictmgr.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2E2F78021BBA692000472FCD /* dictmgr.mm */; settings = {ASSET_TAGS = (); }; };
+		2E2F781B1BBA692000472FCD /* filemgr.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2E2F78041BBA692000472FCD /* filemgr.mm */; settings = {ASSET_TAGS = (); }; };
+		2E2F781C1BBA692000472FCD /* hashmgr.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2E2F78061BBA692000472FCD /* hashmgr.mm */; settings = {ASSET_TAGS = (); }; };
+		2E2F781D1BBA692000472FCD /* hunspell.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2E2F78091BBA692000472FCD /* hunspell.mm */; settings = {ASSET_TAGS = (); }; };
+		2E2F781E1BBA692000472FCD /* hunzip.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2E2F780C1BBA692000472FCD /* hunzip.mm */; settings = {ASSET_TAGS = (); }; };
+		2E2F781F1BBA692000472FCD /* license.hunspell in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F780E1BBA692000472FCD /* license.hunspell */; settings = {ASSET_TAGS = (); }; };
+		2E2F78201BBA692000472FCD /* license.myspell in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F780F1BBA692000472FCD /* license.myspell */; settings = {ASSET_TAGS = (); }; };
+		2E2F78211BBA692000472FCD /* phonet.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2E2F78111BBA692000472FCD /* phonet.mm */; settings = {ASSET_TAGS = (); }; };
+		2E2F78221BBA692000472FCD /* replist.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2E2F78131BBA692000472FCD /* replist.mm */; settings = {ASSET_TAGS = (); }; };
+		2E2F78231BBA692000472FCD /* suggestmgr.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2E2F78151BBA692000472FCD /* suggestmgr.mm */; settings = {ASSET_TAGS = (); }; };
 		B23ED76719D7E3EF00695E0C /* en_US.dic in Resources */ = {isa = PBXBuildFile; fileRef = B23ED76419D7E3EF00695E0C /* en_US.dic */; };
-		B23ED7CA19D807D500695E0C /* affentry.mm in Sources */ = {isa = PBXBuildFile; fileRef = B23ED7AB19D807D500695E0C /* affentry.mm */; };
-		B23ED7CB19D807D500695E0C /* affixmgr.mm in Sources */ = {isa = PBXBuildFile; fileRef = B23ED7AD19D807D500695E0C /* affixmgr.mm */; };
-		B23ED7CC19D807D500695E0C /* csutil.mm in Sources */ = {isa = PBXBuildFile; fileRef = B23ED7B219D807D500695E0C /* csutil.mm */; };
-		B23ED7CD19D807D500695E0C /* dictmgr.mm in Sources */ = {isa = PBXBuildFile; fileRef = B23ED7B419D807D500695E0C /* dictmgr.mm */; };
-		B23ED7CE19D807D500695E0C /* filemgr.mm in Sources */ = {isa = PBXBuildFile; fileRef = B23ED7B619D807D500695E0C /* filemgr.mm */; };
-		B23ED7CF19D807D500695E0C /* hashmgr.mm in Sources */ = {isa = PBXBuildFile; fileRef = B23ED7B819D807D500695E0C /* hashmgr.mm */; };
-		B23ED7D019D807D500695E0C /* hunspell.mm in Sources */ = {isa = PBXBuildFile; fileRef = B23ED7BB19D807D500695E0C /* hunspell.mm */; };
-		B23ED7D119D807D500695E0C /* hunzip.mm in Sources */ = {isa = PBXBuildFile; fileRef = B23ED7BE19D807D500695E0C /* hunzip.mm */; };
-		B23ED7D419D807D500695E0C /* phonet.mm in Sources */ = {isa = PBXBuildFile; fileRef = B23ED7C319D807D500695E0C /* phonet.mm */; };
-		B23ED7D519D807D500695E0C /* replist.mm in Sources */ = {isa = PBXBuildFile; fileRef = B23ED7C519D807D500695E0C /* replist.mm */; };
-		B23ED7D619D807D500695E0C /* suggestmgr.mm in Sources */ = {isa = PBXBuildFile; fileRef = B23ED7C719D807D500695E0C /* suggestmgr.mm */; };
 		B2CB17D519D7C4C0004F5E60 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232E764D1564819C00A91424 /* QuartzCore.framework */; };
 		B2F5DEA519D7C54700A8EF19 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2F5DEA419D7C54700A8EF19 /* LaunchScreen.xib */; };
 /* End PBXBuildFile section */
@@ -60,40 +62,39 @@
 		23444EF3153F635800C8283C /* SpellingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SpellingViewController.xib; sourceTree = "<group>"; };
 		235B12DF157011B600E8F262 /* SpellingSuggestionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpellingSuggestionDelegate.h; sourceTree = "<group>"; };
 		235B12E0157011B600E8F262 /* SpellingSuggestionDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpellingSuggestionDelegate.m; sourceTree = "<group>"; };
+		2E2F77F81BBA692000472FCD /* affentry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = affentry.h; sourceTree = "<group>"; };
+		2E2F77F91BBA692000472FCD /* affentry.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = affentry.mm; sourceTree = "<group>"; };
+		2E2F77FA1BBA692000472FCD /* affixmgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = affixmgr.h; sourceTree = "<group>"; };
+		2E2F77FB1BBA692000472FCD /* affixmgr.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = affixmgr.mm; sourceTree = "<group>"; };
+		2E2F77FC1BBA692000472FCD /* atypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = atypes.h; sourceTree = "<group>"; };
+		2E2F77FD1BBA692000472FCD /* baseaffix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = baseaffix.h; sourceTree = "<group>"; };
+		2E2F77FE1BBA692000472FCD /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		2E2F77FF1BBA692000472FCD /* csutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = csutil.h; sourceTree = "<group>"; };
+		2E2F78001BBA692000472FCD /* csutil.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = csutil.mm; sourceTree = "<group>"; };
+		2E2F78011BBA692000472FCD /* dictmgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dictmgr.h; sourceTree = "<group>"; };
+		2E2F78021BBA692000472FCD /* dictmgr.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = dictmgr.mm; sourceTree = "<group>"; };
+		2E2F78031BBA692000472FCD /* filemgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = filemgr.h; sourceTree = "<group>"; };
+		2E2F78041BBA692000472FCD /* filemgr.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = filemgr.mm; sourceTree = "<group>"; };
+		2E2F78051BBA692000472FCD /* hashmgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hashmgr.h; sourceTree = "<group>"; };
+		2E2F78061BBA692000472FCD /* hashmgr.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = hashmgr.mm; sourceTree = "<group>"; };
+		2E2F78071BBA692000472FCD /* htypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = htypes.h; sourceTree = "<group>"; };
+		2E2F78081BBA692000472FCD /* hunspell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hunspell.h; sourceTree = "<group>"; };
+		2E2F78091BBA692000472FCD /* hunspell.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = hunspell.mm; sourceTree = "<group>"; };
+		2E2F780A1BBA692000472FCD /* hunvisapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hunvisapi.h; sourceTree = "<group>"; };
+		2E2F780B1BBA692000472FCD /* hunzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hunzip.h; sourceTree = "<group>"; };
+		2E2F780C1BBA692000472FCD /* hunzip.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = hunzip.mm; sourceTree = "<group>"; };
+		2E2F780D1BBA692000472FCD /* langnum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = langnum.h; sourceTree = "<group>"; };
+		2E2F780E1BBA692000472FCD /* license.hunspell */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = license.hunspell; sourceTree = "<group>"; };
+		2E2F780F1BBA692000472FCD /* license.myspell */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = license.myspell; sourceTree = "<group>"; };
+		2E2F78101BBA692000472FCD /* phonet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = phonet.h; sourceTree = "<group>"; };
+		2E2F78111BBA692000472FCD /* phonet.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = phonet.mm; sourceTree = "<group>"; };
+		2E2F78121BBA692000472FCD /* replist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = replist.h; sourceTree = "<group>"; };
+		2E2F78131BBA692000472FCD /* replist.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = replist.mm; sourceTree = "<group>"; };
+		2E2F78141BBA692000472FCD /* suggestmgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = suggestmgr.h; sourceTree = "<group>"; };
+		2E2F78151BBA692000472FCD /* suggestmgr.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = suggestmgr.mm; sourceTree = "<group>"; };
+		2E2F78251BBA69E500472FCD /* w_char.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = w_char.h; sourceTree = "<group>"; };
 		B23ED76319D7E3EF00695E0C /* en_US.aff */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = en_US.aff; sourceTree = "<group>"; };
 		B23ED76419D7E3EF00695E0C /* en_US.dic */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = en_US.dic; sourceTree = "<group>"; };
-		B23ED7AA19D807D500695E0C /* affentry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = affentry.h; sourceTree = "<group>"; };
-		B23ED7AB19D807D500695E0C /* affentry.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = affentry.mm; sourceTree = "<group>"; };
-		B23ED7AC19D807D500695E0C /* affixmgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = affixmgr.h; sourceTree = "<group>"; };
-		B23ED7AD19D807D500695E0C /* affixmgr.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = affixmgr.mm; sourceTree = "<group>"; };
-		B23ED7AE19D807D500695E0C /* atypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = atypes.h; sourceTree = "<group>"; };
-		B23ED7AF19D807D500695E0C /* baseaffix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = baseaffix.h; sourceTree = "<group>"; };
-		B23ED7B019D807D500695E0C /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
-		B23ED7B119D807D500695E0C /* csutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = csutil.h; sourceTree = "<group>"; };
-		B23ED7B219D807D500695E0C /* csutil.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = csutil.mm; sourceTree = "<group>"; };
-		B23ED7B319D807D500695E0C /* dictmgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dictmgr.h; sourceTree = "<group>"; };
-		B23ED7B419D807D500695E0C /* dictmgr.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = dictmgr.mm; sourceTree = "<group>"; };
-		B23ED7B519D807D500695E0C /* filemgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = filemgr.h; sourceTree = "<group>"; };
-		B23ED7B619D807D500695E0C /* filemgr.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = filemgr.mm; sourceTree = "<group>"; };
-		B23ED7B719D807D500695E0C /* hashmgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hashmgr.h; sourceTree = "<group>"; };
-		B23ED7B819D807D500695E0C /* hashmgr.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = hashmgr.mm; sourceTree = "<group>"; };
-		B23ED7B919D807D500695E0C /* htypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = htypes.h; sourceTree = "<group>"; };
-		B23ED7BA19D807D500695E0C /* hunspell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hunspell.h; sourceTree = "<group>"; };
-		B23ED7BB19D807D500695E0C /* hunspell.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = hunspell.mm; sourceTree = "<group>"; };
-		B23ED7BC19D807D500695E0C /* hunvisapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hunvisapi.h; sourceTree = "<group>"; };
-		B23ED7BD19D807D500695E0C /* hunzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hunzip.h; sourceTree = "<group>"; };
-		B23ED7BE19D807D500695E0C /* hunzip.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = hunzip.mm; sourceTree = "<group>"; };
-		B23ED7BF19D807D500695E0C /* langnum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = langnum.h; sourceTree = "<group>"; };
-		B23ED7C019D807D500695E0C /* license.hunspell */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = license.hunspell; sourceTree = "<group>"; };
-		B23ED7C119D807D500695E0C /* license.myspell */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = license.myspell; sourceTree = "<group>"; };
-		B23ED7C219D807D500695E0C /* phonet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = phonet.h; sourceTree = "<group>"; };
-		B23ED7C319D807D500695E0C /* phonet.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = phonet.mm; sourceTree = "<group>"; };
-		B23ED7C419D807D500695E0C /* replist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = replist.h; sourceTree = "<group>"; };
-		B23ED7C519D807D500695E0C /* replist.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = replist.mm; sourceTree = "<group>"; };
-		B23ED7C619D807D500695E0C /* suggestmgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = suggestmgr.h; sourceTree = "<group>"; };
-		B23ED7C719D807D500695E0C /* suggestmgr.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = suggestmgr.mm; sourceTree = "<group>"; };
-		B23ED7C819D807D500695E0C /* utf_info.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = utf_info.mm; sourceTree = "<group>"; };
-		B23ED7C919D807D500695E0C /* w_char.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = w_char.h; sourceTree = "<group>"; };
 		B2F5DEA419D7C54700A8EF19 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -168,45 +169,6 @@
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		232CE993153CDD570083785D /* Hunspell */ = {
-			isa = PBXGroup;
-			children = (
-				B23ED7AA19D807D500695E0C /* affentry.h */,
-				B23ED7AB19D807D500695E0C /* affentry.mm */,
-				B23ED7AC19D807D500695E0C /* affixmgr.h */,
-				B23ED7AD19D807D500695E0C /* affixmgr.mm */,
-				B23ED7AE19D807D500695E0C /* atypes.h */,
-				B23ED7AF19D807D500695E0C /* baseaffix.h */,
-				B23ED7B019D807D500695E0C /* config.h */,
-				B23ED7B119D807D500695E0C /* csutil.h */,
-				B23ED7B219D807D500695E0C /* csutil.mm */,
-				B23ED7B319D807D500695E0C /* dictmgr.h */,
-				B23ED7B419D807D500695E0C /* dictmgr.mm */,
-				B23ED7B519D807D500695E0C /* filemgr.h */,
-				B23ED7B619D807D500695E0C /* filemgr.mm */,
-				B23ED7B719D807D500695E0C /* hashmgr.h */,
-				B23ED7B819D807D500695E0C /* hashmgr.mm */,
-				B23ED7B919D807D500695E0C /* htypes.h */,
-				B23ED7BA19D807D500695E0C /* hunspell.h */,
-				B23ED7BB19D807D500695E0C /* hunspell.mm */,
-				B23ED7BC19D807D500695E0C /* hunvisapi.h */,
-				B23ED7BD19D807D500695E0C /* hunzip.h */,
-				B23ED7BE19D807D500695E0C /* hunzip.mm */,
-				B23ED7BF19D807D500695E0C /* langnum.h */,
-				B23ED7C019D807D500695E0C /* license.hunspell */,
-				B23ED7C119D807D500695E0C /* license.myspell */,
-				B23ED7C219D807D500695E0C /* phonet.h */,
-				B23ED7C319D807D500695E0C /* phonet.mm */,
-				B23ED7C419D807D500695E0C /* replist.h */,
-				B23ED7C519D807D500695E0C /* replist.mm */,
-				B23ED7C619D807D500695E0C /* suggestmgr.h */,
-				B23ED7C719D807D500695E0C /* suggestmgr.mm */,
-				B23ED7C819D807D500695E0C /* utf_info.mm */,
-				B23ED7C919D807D500695E0C /* w_char.h */,
-			);
-			path = Hunspell;
-			sourceTree = "<group>";
-		};
 		232CEA28153CF45E0083785D /* dictionaries */ = {
 			isa = PBXGroup;
 			children = (
@@ -249,10 +211,40 @@
 		2364C746155CA1F0000E8310 /* Engine */ = {
 			isa = PBXGroup;
 			children = (
+				2E2F77F81BBA692000472FCD /* affentry.h */,
+				2E2F77F91BBA692000472FCD /* affentry.mm */,
+				2E2F77FA1BBA692000472FCD /* affixmgr.h */,
+				2E2F77FB1BBA692000472FCD /* affixmgr.mm */,
+				2E2F77FC1BBA692000472FCD /* atypes.h */,
+				2E2F77FD1BBA692000472FCD /* baseaffix.h */,
+				2E2F77FE1BBA692000472FCD /* config.h */,
+				2E2F77FF1BBA692000472FCD /* csutil.h */,
+				2E2F78001BBA692000472FCD /* csutil.mm */,
+				2E2F78011BBA692000472FCD /* dictmgr.h */,
+				2E2F78021BBA692000472FCD /* dictmgr.mm */,
+				2E2F78031BBA692000472FCD /* filemgr.h */,
+				2E2F78041BBA692000472FCD /* filemgr.mm */,
+				2E2F78051BBA692000472FCD /* hashmgr.h */,
+				2E2F78061BBA692000472FCD /* hashmgr.mm */,
+				2E2F78071BBA692000472FCD /* htypes.h */,
+				2E2F78081BBA692000472FCD /* hunspell.h */,
+				2E2F78091BBA692000472FCD /* hunspell.mm */,
+				2E2F780A1BBA692000472FCD /* hunvisapi.h */,
+				2E2F780B1BBA692000472FCD /* hunzip.h */,
+				2E2F780C1BBA692000472FCD /* hunzip.mm */,
+				2E2F780D1BBA692000472FCD /* langnum.h */,
+				2E2F780E1BBA692000472FCD /* license.hunspell */,
+				2E2F780F1BBA692000472FCD /* license.myspell */,
+				2E2F78101BBA692000472FCD /* phonet.h */,
+				2E2F78111BBA692000472FCD /* phonet.mm */,
+				2E2F78121BBA692000472FCD /* replist.h */,
+				2E2F78131BBA692000472FCD /* replist.mm */,
+				2E2F78141BBA692000472FCD /* suggestmgr.h */,
+				2E2F78151BBA692000472FCD /* suggestmgr.mm */,
+				2E2F78251BBA69E500472FCD /* w_char.h */,
 				232CEA20153CF2170083785D /* SpellChecker.h */,
 				232CEA21153CF2170083785D /* SpellChecker.mm */,
 				232CEA28153CF45E0083785D /* dictionaries */,
-				232CE993153CDD570083785D /* Hunspell */,
 			);
 			path = Engine;
 			sourceTree = "<group>";
@@ -292,7 +284,7 @@
 		232CE957153CDC9A0083785D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0430;
+				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 232CE95A153CDC9A0083785D /* Build configuration list for PBXProject "Hunspell" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -316,7 +308,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E2F781F1BBA692000472FCD /* license.hunspell in Resources */,
 				232CE96F153CDC9A0083785D /* InfoPlist.strings in Resources */,
+				2E2F78201BBA692000472FCD /* license.myspell in Resources */,
 				B2F5DEA519D7C54700A8EF19 /* LaunchScreen.xib in Resources */,
 				B23ED76719D7E3EF00695E0C /* en_US.dic in Resources */,
 				23444EF5153F635800C8283C /* SpellingViewController.xib in Resources */,
@@ -330,23 +324,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B23ED7CE19D807D500695E0C /* filemgr.mm in Sources */,
+				2E2F781C1BBA692000472FCD /* hashmgr.mm in Sources */,
+				2E2F78191BBA692000472FCD /* csutil.mm in Sources */,
+				2E2F78211BBA692000472FCD /* phonet.mm in Sources */,
 				232CE971153CDC9A0083785D /* main.m in Sources */,
-				B23ED7D019D807D500695E0C /* hunspell.mm in Sources */,
+				2E2F781D1BBA692000472FCD /* hunspell.mm in Sources */,
+				2E2F78221BBA692000472FCD /* replist.mm in Sources */,
+				2E2F78171BBA692000472FCD /* affentry.mm in Sources */,
 				232CE975153CDC9A0083785D /* AppDelegate.mm in Sources */,
-				B23ED7CA19D807D500695E0C /* affentry.mm in Sources */,
-				B23ED7D519D807D500695E0C /* replist.mm in Sources */,
-				B23ED7CD19D807D500695E0C /* dictmgr.mm in Sources */,
-				B23ED7D619D807D500695E0C /* suggestmgr.mm in Sources */,
-				B23ED7CC19D807D500695E0C /* csutil.mm in Sources */,
 				232CEA24153CF2180083785D /* SpellChecker.mm in Sources */,
+				2E2F78231BBA692000472FCD /* suggestmgr.mm in Sources */,
 				23444EF4153F635800C8283C /* SpellingViewController.m in Sources */,
-				B23ED7CB19D807D500695E0C /* affixmgr.mm in Sources */,
-				B23ED7CF19D807D500695E0C /* hashmgr.mm in Sources */,
 				232E76501564874F00A91424 /* SuggestionBar.m in Sources */,
-				B23ED7D119D807D500695E0C /* hunzip.mm in Sources */,
+				2E2F781B1BBA692000472FCD /* filemgr.mm in Sources */,
 				235B12E1157011B600E8F262 /* SpellingSuggestionDelegate.m in Sources */,
-				B23ED7D419D807D500695E0C /* phonet.mm in Sources */,
+				2E2F781A1BBA692000472FCD /* dictmgr.mm in Sources */,
+				2E2F78181BBA692000472FCD /* affixmgr.mm in Sources */,
+				2E2F781E1BBA692000472FCD /* hunzip.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,12 +362,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -381,10 +384,14 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -393,14 +400,25 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
@@ -417,6 +435,7 @@
 				GCC_PREFIX_HEADER = "Hunspell/Supporting Files/Hunspell-Prefix.pch";
 				INFOPLIST_FILE = "Hunspell/Supporting Files/Hunspell-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lurgan.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -430,6 +449,7 @@
 				GCC_PREFIX_HEADER = "Hunspell/Supporting Files/Hunspell-Prefix.pch";
 				INFOPLIST_FILE = "Hunspell/Supporting Files/Hunspell-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lurgan.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
