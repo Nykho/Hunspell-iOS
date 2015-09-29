@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Hunspell/Engine/*'
   s.resources = ['Hunspell/Engine/dictionaries/*']
-  s.public_header_files = "Hunspell/Engine/*.{h,hxx}"
+  s.public_header_files = "Hunspell/Engine/SpellChecker.h"
 
   s.frameworks = 'Foundation'
   s.library = 'c++'
